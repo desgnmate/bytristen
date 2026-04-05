@@ -9,6 +9,9 @@ const commercialImages = [
     { src: '/images/DSC02323-ceb453f3.jpg', alt: 'Commercial project four' },
     { src: '/images/VA-270-c0d484a5.jpg', alt: 'Commercial project five' },
     { src: '/images/DSC01039-c9bd0e1e.jpg', alt: 'Commercial project six' },
+    { src: '/images/CARAMASAYA-227-4fd95153-1500.jpg', alt: 'Commercial project seven' },
+    { src: '/images/CARAMASAYA-229-d1f019f9-1500.jpg', alt: 'Commercial project eight' },
+    { src: '/images/DSC03672-18ed618c.jpg', alt: 'Commercial project nine' },
 ];
 
 export default function CommercialPage() {
