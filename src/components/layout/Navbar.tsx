@@ -24,10 +24,11 @@ export default function Navbar() {
                 <Link
                     key={link.href}
                     href={link.href}
-                    className={`hover:opacity-60 transition-opacity ${pathname === link.href ? 'opacity-100' : ''
+                    className={`relative group pb-1 transition-opacity ${pathname === link.href ? 'opacity-100' : 'opacity-80 hover:opacity-100'
                         }`}
                 >
                     {link.label}
+                    <span className="absolute left-0 bottom-0 w-full h-[1px] bg-[#2C241E] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                 </Link>
             ))}
         </nav>

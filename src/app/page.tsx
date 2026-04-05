@@ -127,7 +127,7 @@ export default function HomePage() {
                             <ParallaxImage
                                 src={imgLinkAvery}
                                 alt="Couple portrait"
-                                className="w-full aspect-[3/3] shadow-lg"
+                                className="w-full aspect-[3/3] shadow-xl"
                                 speed={0.8}
                             />
                         </FadeIn>
@@ -148,7 +148,7 @@ export default function HomePage() {
                             <ParallaxImage
                                 src={imgLinkThankYou}
                                 alt="Bride walking"
-                                className="w-full aspect-[3/4] shadow-lg"
+                                className="w-full aspect-[3/4] shadow-xl"
                                 speed={1.5}
                                 scale={1.3}
                             />
@@ -172,7 +172,7 @@ export default function HomePage() {
                                 <ParallaxImage
                                     src={img2}
                                     alt="Orchid details"
-                                    className="w-full aspect-[3/4] mb-12 shadow-md"
+                                    className="w-full aspect-[3/4] mb-12 shadow-xl"
                                     speed={0.9}
                                 />
                                 <FloatItem speed={1}>
@@ -206,7 +206,7 @@ export default function HomePage() {
                             <ParallaxImage
                                 src={img6}
                                 alt="Couple running"
-                                className="w-4/5 xl:w-2/3 aspect-[3/4] shadow-2xl"
+                                className="w-4/5 xl:w-2/3 aspect-[3/4] shadow-xl"
                                 imgClassName="object-right"
                                 speed={1.5}
                                 scale={1.2}
@@ -243,7 +243,7 @@ export default function HomePage() {
                             <ParallaxImage
                                 src={img7}
                                 alt="Couple in forest"
-                                className="w-full aspect-[4/5] object-top shadow-2xl"
+                                className="w-full aspect-[4/5] object-top shadow-xl"
                                 speed={1.2}
                                 scale={1.2}
                             />
@@ -257,7 +257,7 @@ export default function HomePage() {
                             <ParallaxImage
                                 src={img3}
                                 alt="Couple kissing in light"
-                                className="w-full aspect-[4/3] lg:aspect-square md:-ml-24 shadow-2xl shadow-[#3c3129]/5"
+                                className="w-full aspect-[4/3] lg:aspect-square md:-ml-24 shadow-xl shadow-[#3c3129]/5"
                                 speed={-0.8}
                                 scale={1.3}
                             />
